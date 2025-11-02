@@ -179,3 +179,14 @@ YYYY-MM-DD Name LastName  <email@somewhere>
 	* Deleted 2 unused files and 4 .o files from the src subdirectory
 	* Added Dominique, Kiam and me to the Authors file
 	* Noted the changes in this file
+
+2025-11-1 Ivana Varsányiová <iv1308va@student.lu.se>
+
+	Deleted unused files, moved files for more clarity, updated ../datasets/README.md, updated ../preparation/preprocessing.py
+
+	* Deleted 4 unused files from ../datasets
+	* Updated ../datasets/README.md so that it explains what is in ../datasets subrepository and where did the datasets come from
+	* Moved preprocessing.py and Workplan.md into ../preparation subrepository
+	* Updated ../preparation/preprocessing.py so now there is also a code for preprocessing the temperature dataset
+	* Moved AUTHORS, ChangeLog, LICENSE and README.md to ../info subdirectory for better orientation
+	* Noted the changes in this file
