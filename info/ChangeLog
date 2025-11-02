@@ -180,7 +180,7 @@ YYYY-MM-DD Name LastName  <email@somewhere>
 	* Added Dominique, Kiam and me to the Authors file
 	* Noted the changes in this file
 
-2025-11-1 Ivana Varsányiová <iv1308va@student.lu.se>
+2025-11-01 Ivana Varsányiová <iv1308va@student.lu.se>
 
 	Deleted unused files, moved files for more clarity, updated ../datasets/README.md, updated ../preparation/preprocessing.py
 
@@ -191,10 +191,15 @@ YYYY-MM-DD Name LastName  <email@somewhere>
 	* Moved AUTHORS, ChangeLog, LICENSE and README.md to ../info subdirectory for better orientation
 	* Noted the changes in this file
 
-2025-11-1 Ivana Varsányiová <iv1308va@student.lu.se>
+2025-11-02 Ivana Varsányiová <iv1308va@student.lu.se>
 
 	Moved files around
 
 	* Moved include/README.md back to the main directory, as git could not find it in /include
 	* Moved preparation/preprocessing.py into /datasets and preparation/Workplan.md into /info, deleted /preparation subdirectory
 	* Noted the changes in this file
+
+2025-11-02 Marie-Philine Hebel  <ma3648he@student.lu.se>
+	
+	Added the final report pdf in Report/
+	
