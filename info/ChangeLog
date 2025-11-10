@@ -202,4 +202,12 @@ YYYY-MM-DD Name LastName  <email@somewhere>
 2025-11-02 Marie-Philine Hebel  <ma3648he@student.lu.se>
 	
 	Added the final report pdf in Report/
+
+2025-11-10 Kiam Persson <li8211pe-s@student.lu.se>
+
+	Added documentation on the preprocessing, as per the feedback
+
+	* Removed unused rootlogon.C
+	* Added info on preprocessing in datasets/README.md, and removed unnecessary info
+	* Added info on preprocessing in main README.md
 	
