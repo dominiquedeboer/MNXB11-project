@@ -32,6 +32,6 @@ HANDLING THE DATASETS:
 The files `smhi-opendata_1_53430_20231007_155558_Lund.csv`and `smhi-opendata_5_53430_20251023_141246_rain_Lund.csv` were preprocessed: the code doing this can be found in preprocessing.py . To execute the preprocessing, run in the terminal:
 ```bash
 python -m pip install pandas
-datasets/preprocessing.py
+python datasets/preprocessing.py
 ```
 This python code produces two files we then worked with, those files being lund_cleaned.txt and lund_cleaned_rain.txt.

@@ -20,7 +20,7 @@ We kept two special files in the base of the repository that were in the templat
 To run main.cxx, having the clean datasets are required. To create the clean datasets from the original datasets, run in the terminal:
 ```bash
 python -m pip install pandas
-datasets/preprocessing.py
+python datasets/preprocessing.py
 ```
 This installs the required library pandas, and creates two cleaned dataset files in `datasets/`.  
 
