@@ -4,7 +4,7 @@ import pandas as pd
 from io import StringIO
 
 #CLEANING TEMPERATURE DATASET
-with open("../datasets/ssmhi-opendata_1_53430_20231007_155558_Lund.csv", encoding="utf-8") as data_file:
+with open("../datasets/smhi-opendata_1_53430_20231007_155558_Lund.csv", encoding="utf-8") as data_file:
     all_lines = data_file.readlines()
 
 start_index = 12 #! change depending on ducument. Where the important data starts. 

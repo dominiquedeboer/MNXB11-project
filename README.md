@@ -8,26 +8,35 @@ And lastly there are three graphs on teh rainfall on 15/02 every year from 1863 
 
 # Directory structure
 
-In the `include/` folder, there are four files that initiate four classes, and include the necessary guards. 
-In the `src/` folder, there are four files that define the functions initiated in the classes. Every file includes a function that creates a graph.
-Then in the base, there is a main.cxx file which calls all the functions creating graphs at once, so by running main all pdf's are created. 
+In the `datasets/`folder, there are two uncleaned weather datasets, the two cleaned datasets and the python code used to create those clean versions. Also the [datasets/README.md] (datasets/README.md), containing more information about the datasets.  
 
-We kept the three special files in the base of the repository that were in the template: [.gitignore](.gitignore), [.clang-format](.clang-format), [rootlogon.C](rootlogon.C)
+In the `include/` folder, there are four files that initiate four classes, and include the necessary guards.  
+In the `src/` folder, there are four files that define the functions initiated in the classes. Every file includes a function that creates a graph.
+Then in the base, there is a main.cxx file which calls all the functions creating graphs at once, so by running main all pdf's are created.  
+
+We kept two special files in the base of the repository that were in the template: [.gitignore](.gitignore) and [.clang-format](.clang-format)
  
 # Building the project
+To run main.cxx, having the clean datasets are required. To create the clean datasets from the original datasets, run in the terminal:
+```bash
+python -m pip install pandas
+python datasets/preprocessing.py
+```
+This installs the required library pandas, and creates two cleaned dataset files in `datasets/`.  
 
-To create the files, one needs to be in the MNXB11 Apptainer, and then one needs to run in the terminal (not in ROOT!):
+To create the plots, one needs to be in the MNXB11 Apptainer, and then one needs to run in the terminal (not in ROOT!):
 ```bash
 make clean
 make
 ./main
 ```
-
+The plots produced will be saved as pfd files in `plots/`.  
 ## Adding external software libraries
 
 This project uses C++ 17 and ROOT for data analysis and plotting. 
 
 Dependencies:
+- pandas for preprocessing
 - g++ (at least 9.0)
 - ROOT (at least 6.26)
 - Make
