@@ -17,7 +17,7 @@ Then in the base, there is a main.cxx file which calls all the functions creatin
 We kept two special files in the base of the repository that were in the template: [.gitignore](.gitignore) and [.clang-format](.clang-format)
  
 # Building the project
-To run main.cxx, having the clean datasets are required. To create the clean datasets from the original datasets, run in the terminal:
+To run main.cxx, having the clean datasets are required. To create the clean datasets from the original datasets make sure that python is installed and run from the MNXB11-project/ directory:
 ```bash
 python -m pip install pandas
 python datasets/preprocessing.py
