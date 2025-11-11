@@ -211,3 +211,14 @@ YYYY-MM-DD Name LastName  <email@somewhere>
 	* Added info on preprocessing in datasets/README.md, and removed unnecessary info
 	* Added info on preprocessing in main README.md
 	
+2025-11-11 Marie-Philine Hebel  <ma3648he@student.lu.se>
+	
+	Changed relative paths in datasets/preprocessing.py
+
+	*also added note in README.md
+
+2025-11-11 Kiam Persson <li8211pe-s@student.lu.se>
+
+	Fixed issue in main.cxx causing not all plots to be produced when executing main
+
+	* moved return 0 to last in main function
