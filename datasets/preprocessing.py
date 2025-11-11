@@ -5,7 +5,7 @@ from io import StringIO
 #CLEANING TEMPERATURE DATASET
 
 with open("datasets/smhi-opendata_1_53430_20231007_155558_Lund.csv", encoding="utf-8") as data_file:
-    all_lines = data_file.readlines() #this path because working directory is home (from where python was launched).
+    all_lines = data_file.readlines() #relative path from MNXB11-procect/. needs to be run from there
 
 start_index = 12 #! change depending on ducument. Where the important data starts. 
 #note that index is one less than line index. 
