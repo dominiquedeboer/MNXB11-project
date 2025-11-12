@@ -44,3 +44,6 @@ cleaned_data = cleaned_data.dropna() #drops empty rows
 
 output_path = "datasets/lund_cleaned_rain.txt"
 cleaned_data.to_csv(output_path, sep=" ", index=False)
+
+
+

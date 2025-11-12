@@ -210,7 +210,7 @@ YYYY-MM-DD Name LastName  <email@somewhere>
 	* Removed unused rootlogon.C
 	* Added info on preprocessing in datasets/README.md, and removed unnecessary info
 	* Added info on preprocessing in main README.md
-	
+
 2025-11-11 Marie-Philine Hebel  <ma3648he@student.lu.se>
 	
 	Changed relative paths in datasets/preprocessing.py
