@@ -216,5 +216,9 @@ YYYY-MM-DD Name LastName  <email@somewhere>
 	Changed relative paths in datasets/preprocessing.py
 
 	*also added note in README.md
- 
-	
+
+2025-11-11 Kiam Persson <li8211pe-s@student.lu.se>
+
+	Fixed issue in main.cxx causing not all plots to be produced when executing main
+
+	* moved return 0 to last in main function
